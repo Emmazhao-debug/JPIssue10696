@@ -2,8 +2,44 @@
   "IntegrateWithOtherApplication": {
     "Password": "qu4%!azFk#Hm"
   },
+  "ShareCommandContainers": [],
   "ListviewLoadingIndicatorSettings": {},
+  "GlobalProperties": [],
   "WebSitePort": 12897,
   "UserServicePort": 23321,
-  "StartDateFiscalYear": 4
+  "NotAllowQueryDatabaseByJsApi": false,
+  "StartPage": "数据校验的简单验证 (2)",
+  "ExecConcurrentScheduledTasks": false,
+  "StartDateFiscalYear": 4,
+  "BaseOnStartingMonth": true,
+  "KeepMasterPage": false,
+  "NameConflictPolicy": 1,
+  "PageLoadingMode": 2,
+  "MultipleLanguageSettings": {
+    "Languages": [
+      {
+        "Name": "en",
+        "Description": "Built-in English language, cannot be deleted",
+        "IsBuildIn": true,
+        "LanguageAttribute": "en",
+        "FontFamily": "Calibri"
+      },
+      {
+        "Name": "ja",
+        "IsDefault": true,
+        "Description": "Built-in Japanese language, cannot be deleted",
+        "IsBuildIn": true,
+        "LanguageAttribute": "ja",
+        "FontFamily": "Meiryo UI"
+      }
+    ],
+    "PublicResource": {},
+    "RuntimeBuiltInResource": {
+      "FrontEndResources": {},
+      "ServerResources": {},
+      "ProcessDesignerResource": {},
+      "ProcessTrackerResource": {}
+    },
+    "PluginResource": {}
+  }
 }
