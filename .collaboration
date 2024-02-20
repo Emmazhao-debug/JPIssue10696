@@ -1,16 +1,7 @@
 [
   {
     "ModuleName": "Table/TestTable001",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "Emma.zhao@developertools.com"
-    },
-    "LockDateTime": "2024-02-20T16:57:41.3643821+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\TestTable001.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/Imagefieldtable",
