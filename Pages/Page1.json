@@ -42,7 +42,7 @@
                     "ErrorCode": "0"
                   }
                 ],
-                "ID": "58869646-7394-4a97-81c1-35020dbff188"
+                "ID": "7d11cc53-e8a4-47bd-9c47-ca5c3cea406c"
               },
               {
                 "CommandList": [
@@ -52,7 +52,7 @@
                     "Message": "Value is not right"
                   }
                 ],
-                "ID": "33ea1fd3-c124-4875-9bb7-e6df2db51d4b"
+                "ID": "93e3a420-bc12-4ecf-b8b6-0975a6956973"
               }
             ]
           }
@@ -75,6 +75,48 @@
           {
             "Value": "項目3",
             "DisplayValue": "項目3"
+          }
+        ]
+      },
+      "DataValidationInfo": {
+        "NumberType": 9,
+        "ValidateCommand": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=Page1!NewValue"
+                      }
+                    ]
+                  },
+                  "value": "%Null%",
+                  "compareType": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                    "ErrorCode": "0"
+                  }
+                ],
+                "ID": "36273e6e-16e4-4e9e-911d-97ffa0eabe61"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                    "ErrorCode": "500",
+                    "Message": "Value is not right"
+                  }
+                ],
+                "ID": "06488ac2-52a7-4c21-9971-b4b5b5f29cde"
+              }
+            ]
           }
         ]
       }
@@ -126,4 +168,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//aQqx+orDxJPBg3EAP8/TrWolTRTH8QJJlCWg9Jjr8RZNKwuuXfHSD+yvRfX4pwR7sDJEaKL7vHA0zTAFOqVj4A7SOge12dgk7LNOgbDamdGz1gJO7IaQzCw2XLYVjWBHfWjP/fO+enU+4qo8vHpUetU0SyKqlfzl6TvZpn6ijpNjCB1NGlbRVZCZOJKeAsRL3Ry+QFyeX4p6LpDLF8Q2gxmc3x7J9R9AV5CdIpwm+Vhg0W7Zku10+95H/E5z5garVO8HjuDMCpVX5in6NUd89NHDsrmmNbHDe2Ifi3p7u2ho+G/w6AJQho0bh458m46nVq36VhvVsm9flN+B/J0FOVXb+SjBED4e//lO3nongWQCmUIdX/u4ECW0XLYx5IYYCcrfKxeSJ76ehHVt0X1POALSLE36/dB0l0EPmHtMtDmByjioKjuih8GZV4fINnvNqE9azV3BT8QqwVKngW7vTUlhN/UJUAajSO6xKCcip79cHeCetfXtMoHYg9/tF8mO0tU17GHgSSoYyaksG7rNzjdsDB3UXQx6ztZnfH5po9o9zS4Wn4QYgqSkx2XQDLKIwRLrkrSPmdD7xXm5MJLCu9Mmvp7at7411Wxze+lbuw5b2/TL1p8HB0nxDNUw+mG7A7frbGdHLcpK984gQjWNwyOqrlPE8C1Ir9opvUlOrJMzWY9hlHd1gw4ExzDPh9CIZDWC4y0gBAqXkiFQlCp6Uvo1O2yJq58V9wNasnxHUFUCyBtaw7cUsYzNP1ZFrRb9ohUpLD9r/gyI85npWiVmVJWtjUdw6BB1CJDUKRQNdnzeg/u7oy5GFk/0fpwauqv7TpQjYwqrDqQtPgHwcx+zpf3RtifuuSE10qi1cjBWPYAMOqASDXCHBk7+8Lz8c+2nbx9OQW+hKhcTL34TRbQyjQ==|920
+}//kFsfywqvq0XcIAe7uB/cwyOQO8ni6/tHLGONNGIyEsKIrRX1hYhOSEul/XnoH0eWSpdKDvbCOBxFUwpyigO+1ol22cvyy/I/rAYCrRuZ2MrZJSk7hBqqkpUo3KSK+Ta7Df3Rcqvz6aop/Rv0PizRL558aWcm0vmdUb3gaoy6O1U+57qS7q0UBenwg/YC9bT7NkmMyts0/1H8zGKpBDgA9iIViSpFAcUFaYN7qyHjrxUS7sKZ0jiz9CK7cJ03yF1h2CdBVBYCJNhwfD4CPD5T9feSubJJlG/s0+1D28wP2IMlsGlvFlJpamZ460KCowCxW2a0qXWR0ECjD7UZQaHZgeowLm+4aJX9FnbmcMox7YDvbfJiT0emiZx167IC8K2jaYpMM+/ZvL2dwhhIyvop9LM4b5NHSUbldWRDymZKvgVtAYMlK8s3HBXYnNx2JXjUQjYzrmRMLtaJp9B+GtzAp3aAzyC+sUpmw2A7jQhPDCWIoR0lY2aXLKptdIShDiwtHsaMLYWa25ASpKFtVW2TGAsMD77vpSoXV8Snb7bunixNASRZvOXEZ3ZvvMlbnBQF2nRCspEq99c2J4a2xAbQjcTu9rXfy4XIYHsRQ8u6xRtNwwPRFSZ714rkgEmTRYSYjtap/VTBTB31x7PLdYZ9GlR9wMmh14xi404w4vaFKY5zQdfLy7VhzAFp+17r2261pE/yYgflKX2fbDnZIP8z9ido79/SU0R/dRKLFqtqRVpIZLB2Mn29BqqqOPc22fOhPX7e4nwUtpVqoWZAX2xbqP1rbah8cEXUiGk+59SDjdEkHx2TzzVq1nN8colet7bHZmegm8/gB38wlYwj3qxYpKee8klT/e1KTekMhudRlnBXHS9WXLknrS2iNhBEUvUQo/cXaap5KSRQE56yknvcfw==|920
