@@ -5,16 +5,83 @@
   "Cols": {
     "Count": 60
   },
+  "AttachInfos": {
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, ServerDesignerCommon",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, ServerDesignerCommon"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+      },
+      "DataValidationInfo": {
+        "NumberType": 9,
+        "ValidateCommand": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, ServerDesignerCommon",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, ServerDesignerCommon",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, ServerDesignerCommon",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=NewValue"
+                      }
+                    ]
+                  },
+                  "value": "%Null%",
+                  "compareType": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                    "ErrorCode": "0"
+                  }
+                ],
+                "ID": "127c32b4-345f-490f-945d-cc05341f0fc5"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ReturnCommand, ServerDesignerCommon",
+                    "ErrorCode": "500",
+                    "Message": "Value is not right"
+                  }
+                ],
+                "ID": "f786581b-dd86-45de-9266-16d40c9c67b0"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
   "StyleDatas": {
+    "Styles": [
+      {
+        "Formatter": 0
+      }
+    ],
     "Types": {
       "Strs": [
+        "@",
         "Body"
       ]
     },
+    "CellStyles": {
+      "1,2": 0
+    },
     "SheetStyle": {
-      "FontFamily": 0
+      "FontFamily": 1
     }
   },
+  "Spans": [
+    "1,2,2,9"
+  ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, ServerDesignerCommon",
     "PermissionData": {
@@ -38,4 +105,4 @@
     "PaperSize": {},
     "Margin": {}
   }
-}//nyH2/fVPrljpQh9LDVH5aCa+l5k1zGMWzDWqKXPMopeVe4Xr4NFiJUI7bmwERiFP/wDDrWESx/QMUIIhkAByxVjKOsuohTIbhIXWkr5k7UtPt0su0f4aotJrBrZV6G9XWy86LxKg7G0Q/ejdvT/otCCuJi0DqiQAcTKsG7XrIDVTBw0ElyGGUTreIkU4ceQ8cJg13dvOiIPWrvwRWrmZZQnxHtg8PBK3oSQb/YchoLuKuAk1uhfeknDHJH7atADVFJygIa5maBwlKGUX3PPas06H0KJWEI0ASYPHeCVtmwGnl8yn1re/qYIUqGiknXCS64ma0CuaNCUFMEM7Vp6Xd954YEUCWF9buWTZ9vlzwK1CRYlQDp5T37dvU66AlWLcaC2bRRQ1wQbqU8ekdYaSdJ4hEhjr+wZ+8hgn2JmgFdgwVSwUIeFzT7U/LBIiv8JUL1+Ur96V5HJq3JdWdrq5UgH2A7DgDxhJ1AwaR65M6crHKmzgd6p8nI8Mu/SCwseF0tJpZM2tvTmHdQPc5tu40jZuxLfm6Si3hWmyGJrmdMwJChGKrdCElgNDXskp+vEwUwz+juiUuKB8E+C3WBYur9MENXoZJbvGSB+AWq6FCPr7GgVMqSZLts4MTxrvJgsnOcM9tksXARL6QW6jnoI6QUNVhZ3JZsqgKT+byOrVeKW7BZQjB2nAzAgNTJcX8HoleBnh8aOYUzDR/h3iYsIZGTEBVF+On+/nLGBT7Mm/c+Q2T11Nr0cLIMsi9SEo7iETzG65bzL8Uk6InwmO6MzG0NaF3EveADSgFmrooOS45LNdbJxSFpJHSBd2F8Yc4YBTe/7z6YQYRCMHVsrtAktU//Rq7HTs78pW8Mq4pZUbn1QJ5+qXZu1bGcVCCIMzoNQAhjoE2Q0k240b3WKiCLaWGw==|920
+}//wvrVq+uT6ex4Ag8qf3bEEPwz5IdGP898ieykFodRCM4/6QNCL+NRh77e0g8V9GbyQxGmZ8mwE6HpIDHS3xkRPxmgUSdS0LGyDHBAID1HExZ9DpVYk3GdtILo3CCE+DRV1MsGc9X0MlrUYgNB2mPDj+gfcMmU0ZI8jBSwKzE+7v3z8BFRK/TzDP6h7tcJSNUjsuosXndznNSqIkNY18TVEM9IWE7kTVHWXaNQEGeZp/biAYKYK96X3l/W2tsgf6lpZ5/QJXH9fHuZE4j6Ot8FmDCMvsd0ikRMBLDlGss24w91myAfMcf9MiszopzxtMJZxzg4Z04kfkThudIi5amDpAiWfdumfFggO4Pyl5P9dLpJhkENAjrz/6SwOKGJ0QGYIn1JApySh8M4djIQL66WDwh98GlFKHVR5j9VJU7JfRCGVh+kPg6VXNCYFJ6RwotiMjiedGdWAox9J1FUqwA5JxuYVJEIy7IyXKgx2J2J+V4HDRoGwOBagdSt5lrlg7fSBzb+dsyuCioJDi2svoytPn3G4UgGPvuZOhmYV+pJnorUDxZ8fdiTH77WI4zGTm38+M60NjEkozNEKhuwOmQSOF4CV2EoEK27M0WFQ/70dW3wWBkh+QW7qMA75ntKkqyRUHiwVcjSOL11D8fUjFnE6O2q7QWUY2yPfVYl/GJfuQCi0pMVOtl2gkZ7pve1z0NIyG1Gpa/3zZOcnqA+5uJfP09Fo6g5TYyExxAav5VG5YWFA+qRwRdYt0oB9Pu2gL8nhkSMXu34NvD8y1xdApnYpFgWSHT2RvKqfumYcONQX8lPs07WczgTDMCYv8K9fzsDrmOkQ8We/YRlTd1b7rwKnKVy2CJyana3kUsnAMVKje62o0qgxxBUgZssfzkWO+scAhgLc61bdvGF20FE48nscg==|920

@@ -1,16 +1,7 @@
 [
   {
     "ModuleName": "Table/TestTable001",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "Emma.zhao@developertools.com"
-    },
-    "LockDateTime": "2024-02-20T17:27:18.9635939+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "Tables\\TestTable001.json"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "Table/Imagefieldtable",
@@ -26,17 +17,7 @@
   },
   {
     "ModuleName": "PCPage/Page1",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "Emma.zhao@developertools.com"
-    },
-    "LockDateTime": "2024-02-22T18:31:46.4554496+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Page1.json",
-      "Pages\\Page1.rd"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages/ビルトイン ページ",
@@ -216,12 +197,6 @@
   },
   {
     "ModuleName": "Table/TestTable",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\EmmaZhao",
-      "Email": "Emma.zhao@developertools.com"
-    },
-    "LockDateTime": "2024-02-22T18:32:06.576861+08:00",
     "ModuleType": 7,
     "ExclusiveType": 0
   }
